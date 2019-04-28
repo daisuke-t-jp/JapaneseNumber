@@ -64,10 +64,10 @@ public extension Int {
         }
         
         let digitNum = tmp / Int(pow(Double(10), Double(digit2 - 1)))
-        if digitNum > 1 {
-          result += JapaneseNumber.allCases[digitNum].rawValue + prefix
-        } else {
+        if digitNum < 2 && digit2 < 5 {
           result += prefix
+        } else {
+          result += JapaneseNumber.allCases[digitNum].rawValue + prefix
         }
         
         tmp -= digitNum * Int(pow(Double(10), Double(digit2 - 1)))
