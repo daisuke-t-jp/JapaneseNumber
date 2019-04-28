@@ -85,6 +85,38 @@ class JapaneseNumberTests: XCTestCase {
     XCTAssertEqual(2222.japaneseNumber, "二千二百二十二")
     XCTAssertEqual(9999.japaneseNumber, "九千九百九十九")
   }
+  
+  func testMan() {
+    XCTAssertEqual(10000.japaneseNumber, "一万")
+    XCTAssertEqual(10001.japaneseNumber, "一万一")
+    XCTAssertEqual(10010.japaneseNumber, "一万十")
+    XCTAssertEqual(10011.japaneseNumber, "一万十一")
+    XCTAssertEqual(10100.japaneseNumber, "一万百")
+    XCTAssertEqual(10101.japaneseNumber, "一万百一")
+    XCTAssertEqual(10111.japaneseNumber, "一万百十一")
+    XCTAssertEqual(11000.japaneseNumber, "一万千")
+    XCTAssertEqual(11001.japaneseNumber, "一万千一")
+    XCTAssertEqual(11010.japaneseNumber, "一万千十")
+    XCTAssertEqual(11011.japaneseNumber, "一万千十一")
+    XCTAssertEqual(11100.japaneseNumber, "一万千百")
+    XCTAssertEqual(11101.japaneseNumber, "一万千百一")
+    XCTAssertEqual(11110.japaneseNumber, "一万千百十")
+    XCTAssertEqual(20000.japaneseNumber, "二万")
+    XCTAssertEqual(20002.japaneseNumber, "二万二")
+    XCTAssertEqual(20020.japaneseNumber, "二万二十")
+    XCTAssertEqual(20022.japaneseNumber, "二万二十二")
+    XCTAssertEqual(20200.japaneseNumber, "二万二百")
+    XCTAssertEqual(20202.japaneseNumber, "二万二百二")
+    XCTAssertEqual(20222.japaneseNumber, "二万二百二十二")
+    XCTAssertEqual(22000.japaneseNumber, "二万二千")
+    XCTAssertEqual(22002.japaneseNumber, "二万二千二")
+    XCTAssertEqual(22020.japaneseNumber, "二万二千二十")
+    XCTAssertEqual(22022.japaneseNumber, "二万二千二十二")
+    XCTAssertEqual(22200.japaneseNumber, "二万二千二百")
+    XCTAssertEqual(22202.japaneseNumber, "二万二千二百二")
+    XCTAssertEqual(22220.japaneseNumber, "二万二千二百二十")
+    XCTAssertEqual(22222.japaneseNumber, "二万二千二百二十二")
+    XCTAssertEqual(99999.japaneseNumber, "九万九千九百九十九")
   }
   
 }
