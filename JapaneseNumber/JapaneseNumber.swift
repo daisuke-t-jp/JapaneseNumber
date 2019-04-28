@@ -134,7 +134,12 @@ public extension Int {
         if digitNum < 2 && digit2 < 5 {
           result += prefix
         } else {
-          result += JapaneseNumber.allCases[digitNum].rawValue + prefix
+          if digitNum > 9 {
+            result += digitNum.japaneseNumber + prefix
+          }
+          else {
+            result += JapaneseNumber.allCases[digitNum].rawValue + prefix
+          }
         }
         
         tmp -= digitNum * Int(pow(Double(10), Double(digit2 - 1)))
