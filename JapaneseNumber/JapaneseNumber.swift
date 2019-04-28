@@ -50,29 +50,51 @@ public extension Int {
     case nine  = "九"  // 9
   }
   
+  enum JapaneseMetricPrefix: String {
+    case jū = "十"     // 10^1 Jū
+    case hyaku = "百"  // 10^2 Hyaku
+    case sen = "千"    // 10^3 Sen
+    case man = "万"    // 10^4 Man
+    case oku = "億"    // 10^8 Oku
+    case chō = "兆"    // 10^12 Chō
+    case kei = "京"    // 10^16 Kei
+    case gai = "垓"    // 10^20 Gai
+    case shi = "秭"    // 10^24 Shi
+    case jou = "穣"    // 10^28 Jou
+    case ko = "溝"     // 10^32 Ko
+    case kan = "澗"    // 10^36 Kan
+    case sei = "正"    // 10^40 Sei
+    case sai = "載"    // 10^44 Sai
+    case goku = "極"   // 10^48 Goku
+    case gōgasha = "恒河沙"  // 10^52 Gōgasha
+    case asōgi = "阿僧祇"    // 10^56 Asōgi
+    case nayuta = "那由他"   // 10^60 Nayuta
+    case fukashigi = "不可思議"   // 10^64 Fukashigi
+    case muryōtaisū = "無量大数"  // 10^68 Muryōtaisū
+  }
   
   private static func japaneseMetricPrefixes() -> [Int: String] {
     return [
-      1: "十",  // 10^1 Jū
-      2: "百",  // 10^2 Hyaku
-      3: "千",  // 10^3 Sen
-      4: "万",  // 10^4 Man
-      8: "億",  // 10^8 Oku
-      12: "兆",  // 10^12 Chō
-      16: "京",  // 10^16 Kei
-      20: "垓",  // 10^20 Gai
-      24: "秭",  // 10^24 Shi
-      28: "穣",  // 10^28 Jou
-      32: "溝",  // 10^32 Ko
-      36: "澗",  // 10^36 Kan
-      40: "正",  // 10^40 Sei
-      44: "載",  // 10^44 Sai
-      48: "極",  // 10^48 Goku
-      52: "恒河沙",  // 10^52 Gōgasha
-      56: "阿僧祇",  // 10^56 Asōgi
-      60: "那由他",  // 10^60 Nayuta
-      64: "不可思議", // 10^64 Fukashigi
-      68: "無量大数", // 10^68 Muryōtaisū
+      1: JapaneseMetricPrefix.jū.rawValue,
+      2: JapaneseMetricPrefix.hyaku.rawValue,
+      3: JapaneseMetricPrefix.sen.rawValue,
+      4: JapaneseMetricPrefix.man.rawValue,
+      8: JapaneseMetricPrefix.oku.rawValue,
+      12: JapaneseMetricPrefix.chō.rawValue,
+      16: JapaneseMetricPrefix.kei.rawValue,
+      20: JapaneseMetricPrefix.gai.rawValue,
+      24: JapaneseMetricPrefix.shi.rawValue,
+      28: JapaneseMetricPrefix.jou.rawValue,
+      32: JapaneseMetricPrefix.ko.rawValue,
+      36: JapaneseMetricPrefix.kan.rawValue,
+      40: JapaneseMetricPrefix.sei.rawValue,
+      44: JapaneseMetricPrefix.sai.rawValue,
+      48: JapaneseMetricPrefix.goku.rawValue,
+      52: JapaneseMetricPrefix.gōgasha.rawValue,
+      56: JapaneseMetricPrefix.asōgi.rawValue,
+      60: JapaneseMetricPrefix.nayuta.rawValue,
+      64: JapaneseMetricPrefix.fukashigi.rawValue,
+      68: JapaneseMetricPrefix.muryōtaisū.rawValue,
     ]
   }
   
