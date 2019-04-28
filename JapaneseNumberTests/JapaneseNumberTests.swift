@@ -67,6 +67,24 @@ class JapaneseNumberTests: XCTestCase {
     XCTAssertEqual(222.japaneseNumber, "二百二十二")
     XCTAssertEqual(999.japaneseNumber, "九百九十九")
   }
+  
+  func testSen() {
+    XCTAssertEqual(1000.japaneseNumber, "千")
+    XCTAssertEqual(1001.japaneseNumber, "千一")
+    XCTAssertEqual(1010.japaneseNumber, "千十")
+    XCTAssertEqual(1011.japaneseNumber, "千十一")
+    XCTAssertEqual(1100.japaneseNumber, "千百")
+    XCTAssertEqual(1101.japaneseNumber, "千百一")
+    XCTAssertEqual(1111.japaneseNumber, "千百十一")
+    XCTAssertEqual(2000.japaneseNumber, "二千")
+    XCTAssertEqual(2002.japaneseNumber, "二千二")
+    XCTAssertEqual(2020.japaneseNumber, "二千二十")
+    XCTAssertEqual(2022.japaneseNumber, "二千二十二")
+    XCTAssertEqual(2200.japaneseNumber, "二千二百")
+    XCTAssertEqual(2202.japaneseNumber, "二千二百二")
+    XCTAssertEqual(2222.japaneseNumber, "二千二百二十二")
+    XCTAssertEqual(9999.japaneseNumber, "九千九百九十九")
+  }
   }
   
 }
