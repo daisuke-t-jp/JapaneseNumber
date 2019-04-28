@@ -116,7 +116,7 @@ class JapaneseNumberTests: XCTestCase {
     XCTAssertEqual(22202.japaneseNumber, "二万二千二百二")
     XCTAssertEqual(22220.japaneseNumber, "二万二千二百二十")
     XCTAssertEqual(22222.japaneseNumber, "二万二千二百二十二")
-    XCTAssertEqual(99999.japaneseNumber, "九万九千九百九十九")
+    XCTAssertEqual(99999999.japaneseNumber, "九千九百九十九万九千九百九十九")
   }
   
 }
