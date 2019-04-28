@@ -30,7 +30,7 @@ public extension Int {
 public extension Int {
   
   enum JapaneseNumber: String, CaseIterable {
-    case zero  = "零"  // 0
+    case zero  = "〇"  // 0
     case one   = "一"  // 1
     case tow   = "二"  // 2
     case three = "三"  // 3

@@ -20,7 +20,7 @@ class JapaneseNumberTests: XCTestCase {
   }
   
   func testOneDigits() {
-    XCTAssertEqual(0.japaneseNumber, "零")
+    XCTAssertEqual(0.japaneseNumber, "〇")
     XCTAssertEqual(1.japaneseNumber, "一")
     XCTAssertEqual(2.japaneseNumber, "二")
     XCTAssertEqual(3.japaneseNumber, "三")
