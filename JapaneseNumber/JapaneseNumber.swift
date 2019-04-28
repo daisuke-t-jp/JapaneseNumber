@@ -11,6 +11,9 @@ import Foundation
 // TODO: SwiftPM
 // TODO: Float
 // TODO: UInt
+// TODO: travis
+// TODO: iOS
+// TODO: Linux
 
 public extension Int {
   

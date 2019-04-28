@@ -53,6 +53,7 @@ class JapaneseNumberTests: XCTestCase {
     XCTAssertEqual(27.japaneseNumber, "二十七")
     XCTAssertEqual(28.japaneseNumber, "二十八")
     XCTAssertEqual(29.japaneseNumber, "二十九")
+    XCTAssertEqual(99.japaneseNumber, "九十九")
   }
   
   func testHyaku() {
@@ -61,9 +62,11 @@ class JapaneseNumberTests: XCTestCase {
     XCTAssertEqual(110.japaneseNumber, "百十")
     XCTAssertEqual(111.japaneseNumber, "百十一")
     XCTAssertEqual(200.japaneseNumber, "二百")
-    XCTAssertEqual(201.japaneseNumber, "二百一")
-    XCTAssertEqual(210.japaneseNumber, "二百十")
-    XCTAssertEqual(211.japaneseNumber, "二百十一")
+    XCTAssertEqual(202.japaneseNumber, "二百二")
+    XCTAssertEqual(220.japaneseNumber, "二百二十")
+    XCTAssertEqual(222.japaneseNumber, "二百二十二")
+    XCTAssertEqual(999.japaneseNumber, "九百九十九")
+  }
   }
   
 }
