@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7E5619932276073100010B13"
-               BuildableName = "JapaneseNumber_iOS.framework"
+               BuildableName = "JapaneseNumber.framework"
                BlueprintName = "JapaneseNumber-iOS"
                ReferencedContainer = "container:JapaneseNumber.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7E56199B2276073200010B13"
-               BuildableName = "JapaneseNumberTests-iOS.xctest"
+               BuildableName = "JapaneseNumberTests.xctest"
                BlueprintName = "JapaneseNumberTests-iOS"
                ReferencedContainer = "container:JapaneseNumber.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E5619932276073100010B13"
-            BuildableName = "JapaneseNumber_iOS.framework"
+            BuildableName = "JapaneseNumber.framework"
             BlueprintName = "JapaneseNumber-iOS"
             ReferencedContainer = "container:JapaneseNumber.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E5619932276073100010B13"
-            BuildableName = "JapaneseNumber_iOS.framework"
+            BuildableName = "JapaneseNumber.framework"
             BlueprintName = "JapaneseNumber-iOS"
             ReferencedContainer = "container:JapaneseNumber.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7E5619932276073100010B13"
-            BuildableName = "JapaneseNumber_iOS.framework"
+            BuildableName = "JapaneseNumber.framework"
             BlueprintName = "JapaneseNumber-iOS"
             ReferencedContainer = "container:JapaneseNumber.xcodeproj">
          </BuildableReference>
