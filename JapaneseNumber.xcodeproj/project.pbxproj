@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E56199D2276073200010B13 /* JapaneseNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5619942276073100010B13 /* JapaneseNumber.framework */; };
+		7E5619AB227608A500010B13 /* JapaneseNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD64C52275B2CF002D8D0D /* JapaneseNumberTests.swift */; };
+		7E5619AC227608A800010B13 /* JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD64BE2275B28F002D8D0D /* JapaneseNumber.swift */; };
+		7E5619AD227608AD00010B13 /* JapaneseNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAD64BD2275B28F002D8D0D /* JapaneseNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E69704022744B770029487B /* JapaneseNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E69703622744B770029487B /* JapaneseNumber.framework */; };
 		7EAD64C02275B28F002D8D0D /* JapaneseNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAD64BD2275B28F002D8D0D /* JapaneseNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EAD64C12275B28F002D8D0D /* JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD64BE2275B28F002D8D0D /* JapaneseNumber.swift */; };
@@ -14,6 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7E56199E2276073200010B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E69702D22744B770029487B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E5619932276073100010B13;
+			remoteInfo = "JapaneseNumber-iOS";
+		};
 		7E69704122744B770029487B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7E69702D22744B770029487B /* Project object */;
@@ -24,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E5619942276073100010B13 /* JapaneseNumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JapaneseNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E56199C2276073200010B13 /* JapaneseNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapaneseNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E69703622744B770029487B /* JapaneseNumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JapaneseNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E69703F22744B770029487B /* JapaneseNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapaneseNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAD64BD2275B28F002D8D0D /* JapaneseNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapaneseNumber.h; sourceTree = "<group>"; };
@@ -35,6 +48,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7E5619912276073100010B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5619992276073200010B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E56199D2276073200010B13 /* JapaneseNumber.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E69703322744B770029487B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,6 +95,8 @@
 			children = (
 				7E69703622744B770029487B /* JapaneseNumber.framework */,
 				7E69703F22744B770029487B /* JapaneseNumberTests.xctest */,
+				7E5619942276073100010B13 /* JapaneseNumber.framework */,
+				7E56199C2276073200010B13 /* JapaneseNumberTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +126,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		7E56198F2276073100010B13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5619AD227608AD00010B13 /* JapaneseNumber.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E69703122744B770029487B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,6 +145,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		7E5619932276073100010B13 /* JapaneseNumber-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5619A92276073200010B13 /* Build configuration list for PBXNativeTarget "JapaneseNumber-iOS" */;
+			buildPhases = (
+				7E56198F2276073100010B13 /* Headers */,
+				7E5619902276073100010B13 /* Sources */,
+				7E5619912276073100010B13 /* Frameworks */,
+				7E5619922276073100010B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JapaneseNumber-iOS";
+			productName = "JapaneseNumber-iOS";
+			productReference = 7E5619942276073100010B13 /* JapaneseNumber.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E56199B2276073200010B13 /* JapaneseNumberTests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5619AA2276073200010B13 /* Build configuration list for PBXNativeTarget "JapaneseNumberTests-iOS" */;
+			buildPhases = (
+				7E5619982276073200010B13 /* Sources */,
+				7E5619992276073200010B13 /* Frameworks */,
+				7E56199A2276073200010B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E56199F2276073200010B13 /* PBXTargetDependency */,
+			);
+			name = "JapaneseNumberTests-iOS";
+			productName = "JapaneseNumber-iOSTests";
+			productReference = 7E56199C2276073200010B13 /* JapaneseNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7E69703522744B770029487B /* JapaneseNumber-macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E69704A22744B770029487B /* Build configuration list for PBXNativeTarget "JapaneseNumber-macOS" */;
@@ -153,6 +227,12 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = DaisukeT;
 				TargetAttributes = {
+					7E5619932276073100010B13 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7E56199B2276073200010B13 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					7E69703522744B770029487B = {
 						CreatedOnToolsVersion = 10.2.1;
 						LastSwiftMigration = 1020;
@@ -176,11 +256,27 @@
 			targets = (
 				7E69703522744B770029487B /* JapaneseNumber-macOS */,
 				7E69703E22744B770029487B /* JapaneseNumberTests-macOS */,
+				7E5619932276073100010B13 /* JapaneseNumber-iOS */,
+				7E56199B2276073200010B13 /* JapaneseNumberTests-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7E5619922276073100010B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E56199A2276073200010B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E69703422744B770029487B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,6 +294,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7E5619902276073100010B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5619AC227608A800010B13 /* JapaneseNumber.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5619982276073200010B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5619AB227608A500010B13 /* JapaneseNumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E69703222744B770029487B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +329,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7E56199F2276073200010B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E5619932276073100010B13 /* JapaneseNumber-iOS */;
+			targetProxy = 7E56199E2276073200010B13 /* PBXContainerItemProxy */;
+		};
 		7E69704222744B770029487B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7E69703522744B770029487B /* JapaneseNumber-macOS */;
@@ -225,6 +342,102 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		7E5619A52276073200010B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/JapaneseNumber/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DaisukeT.JapaneseNumber;
+				PRODUCT_NAME = JapaneseNumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E5619A62276073200010B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/JapaneseNumber/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DaisukeT.JapaneseNumber;
+				PRODUCT_NAME = JapaneseNumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E5619A72276073200010B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/JapaneseNumberTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DaisukeT.JapaneseNumber;
+				PRODUCT_NAME = JapaneseNumberTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E5619A82276073200010B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/JapaneseNumberTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DaisukeT.JapaneseNumber;
+				PRODUCT_NAME = JapaneseNumberTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		7E69704822744B770029487B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -438,6 +651,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7E5619A92276073200010B13 /* Build configuration list for PBXNativeTarget "JapaneseNumber-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5619A52276073200010B13 /* Debug */,
+				7E5619A62276073200010B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5619AA2276073200010B13 /* Build configuration list for PBXNativeTarget "JapaneseNumberTests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5619A72276073200010B13 /* Debug */,
+				7E5619A82276073200010B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7E69703022744B770029487B /* Build configuration list for PBXProject "JapaneseNumber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
