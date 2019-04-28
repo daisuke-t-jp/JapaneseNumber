@@ -7,14 +7,6 @@
 //
 
 import Foundation
-// TODO: SwiftLint
-// TODO: SwiftPM
-// TODO: Float
-// TODO: UInt
-// TODO: travis
-// TODO: iOS
-// TODO: Linux
-
 
 // MARK: - Utility
 public extension Int {
