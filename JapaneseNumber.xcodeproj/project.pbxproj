@@ -107,9 +107,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7E69703522744B770029487B /* JapaneseNumber */ = {
+		7E69703522744B770029487B /* JapaneseNumber-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E69704A22744B770029487B /* Build configuration list for PBXNativeTarget "JapaneseNumber" */;
+			buildConfigurationList = 7E69704A22744B770029487B /* Build configuration list for PBXNativeTarget "JapaneseNumber-macOS" */;
 			buildPhases = (
 				7E69703122744B770029487B /* Headers */,
 				7E69703222744B770029487B /* Sources */,
@@ -120,14 +120,14 @@
 			);
 			dependencies = (
 			);
-			name = JapaneseNumber;
+			name = "JapaneseNumber-macOS";
 			productName = JapaneseNumber;
 			productReference = 7E69703622744B770029487B /* JapaneseNumber.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7E69703E22744B770029487B /* JapaneseNumberTests */ = {
+		7E69703E22744B770029487B /* JapaneseNumberTests-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E69704D22744B770029487B /* Build configuration list for PBXNativeTarget "JapaneseNumberTests" */;
+			buildConfigurationList = 7E69704D22744B770029487B /* Build configuration list for PBXNativeTarget "JapaneseNumberTests-macOS" */;
 			buildPhases = (
 				7E69703B22744B770029487B /* Sources */,
 				7E69703C22744B770029487B /* Frameworks */,
@@ -138,7 +138,7 @@
 			dependencies = (
 				7E69704222744B770029487B /* PBXTargetDependency */,
 			);
-			name = JapaneseNumberTests;
+			name = "JapaneseNumberTests-macOS";
 			productName = JapaneseNumberTests;
 			productReference = 7E69703F22744B770029487B /* JapaneseNumberTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -174,8 +174,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E69703522744B770029487B /* JapaneseNumber */,
-				7E69703E22744B770029487B /* JapaneseNumberTests */,
+				7E69703522744B770029487B /* JapaneseNumber-macOS */,
+				7E69703E22744B770029487B /* JapaneseNumberTests-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -219,7 +219,7 @@
 /* Begin PBXTargetDependency section */
 		7E69704222744B770029487B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E69703522744B770029487B /* JapaneseNumber */;
+			target = 7E69703522744B770029487B /* JapaneseNumber-macOS */;
 			targetProxy = 7E69704122744B770029487B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -366,7 +366,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DaisukeT.JapaneseNumber;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = JapaneseNumber;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -393,7 +393,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DaisukeT.JapaneseNumber;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = JapaneseNumber;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -412,7 +412,7 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DaisukeT.JapaneseNumberTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JapaneseNumberTests;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -430,7 +430,7 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DaisukeT.JapaneseNumberTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JapaneseNumberTests;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -447,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E69704A22744B770029487B /* Build configuration list for PBXNativeTarget "JapaneseNumber" */ = {
+		7E69704A22744B770029487B /* Build configuration list for PBXNativeTarget "JapaneseNumber-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E69704B22744B770029487B /* Debug */,
@@ -456,7 +456,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E69704D22744B770029487B /* Build configuration list for PBXNativeTarget "JapaneseNumberTests" */ = {
+		7E69704D22744B770029487B /* Build configuration list for PBXNativeTarget "JapaneseNumberTests-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E69704E22744B770029487B /* Debug */,
