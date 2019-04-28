@@ -6,7 +6,7 @@
 //  Copyright © 2019 DaisukeT. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for JapaneseNumber.
 FOUNDATION_EXPORT double JapaneseNumberVersionNumber;
