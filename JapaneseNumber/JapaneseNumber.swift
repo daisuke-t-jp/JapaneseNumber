@@ -15,9 +15,28 @@ import Foundation
 // TODO: iOS
 // TODO: Linux
 
+
+// MARK: - Utility
 public extension Int {
   
-  // MARK: - Enum, Const
+  private var digit: Int {
+    var digit = 0
+    var tmp = self
+    
+    while tmp != 0 {
+      tmp /= 10
+      digit += 1
+    }
+    
+    return digit
+  }
+  
+}
+
+
+// MARK: - Enum, Const
+public extension Int {
+  
   enum JapaneseNumber: String, CaseIterable {
     case zero  = "零"  // 0
     case one   = "一"  // 1
@@ -29,6 +48,32 @@ public extension Int {
     case seven = "七"  // 7
     case eight = "八"  // 8
     case nine  = "九"  // 9
+  }
+  
+  
+  private static func japaneseMetricPrefixes() -> [Int: String] {
+    return [
+      1: "十",  // 10^1 Jū
+      2: "百",  // 10^2 Hyaku
+      3: "千",  // 10^3 Sen
+      4: "万",  // 10^4 Man
+      8: "億",  // 10^8 Oku
+      12: "兆",  // 10^12 Chō
+      16: "京",  // 10^16 Kei
+      20: "垓",  // 10^20 Gai
+      24: "秭",  // 10^24 Shi
+      28: "穣",  // 10^28 Jou
+      32: "溝",  // 10^32 Ko
+      36: "澗",  // 10^36 Kan
+      40: "正",  // 10^40 Sei
+      44: "載",  // 10^44 Sai
+      48: "極",  // 10^48 Goku
+      52: "恒河沙",  // 10^52 Gōgasha
+      56: "阿僧祇",  // 10^56 Asōgi
+      60: "那由他",  // 10^60 Nayuta
+      64: "不可思議", // 10^64 Fukashigi
+      68: "無量大数", // 10^68 Muryōtaisū
+    ]
   }
   
 }
@@ -77,43 +122,6 @@ public extension Int {
     }
     
     return result
-  }
-  
-  private var digit: Int {
-    var digit = 0
-    var tmp = self
-    
-    while tmp != 0 {
-      tmp /= 10
-      digit += 1
-    }
-    
-    return digit
-  }
-  
-  private static func japaneseMetricPrefixes() -> [Int: String] {
-    return [
-      1: "十",  // 10^1 Jū
-      2: "百",  // 10^2 Hyaku
-      3: "千",  // 10^3 Sen
-      4: "万",  // 10^4 Man
-      8: "億",  // 10^8 Oku
-      12: "兆",  // 10^12 Chō
-      16: "京",  // 10^16 Kei
-      20: "垓",  // 10^20 Gai
-      24: "秭",  // 10^24 Shi
-      28: "穣",  // 10^28 Jou
-      32: "溝",  // 10^32 Ko
-      36: "澗",  // 10^36 Kan
-      40: "正",  // 10^40 Sei
-      44: "載",  // 10^44 Sai
-      48: "極",  // 10^48 Goku
-      52: "恒河沙",  // 10^52 Gōgasha
-      56: "阿僧祇",  // 10^56 Asōgi
-      60: "那由他",  // 10^60 Nayuta
-      64: "不可思議", // 10^64 Fukashigi
-      68: "無量大数", // 10^68 Muryōtaisū
-    ]
   }
   
 }
