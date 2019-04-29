@@ -11,6 +11,17 @@ import XCTest
 
 class JapaneseNumberTests: XCTestCase {
   
+  static var allTests = [
+    ("testIchi", testIchi),
+    ("testJū", testJū),
+    ("testHyaku", testHyaku),
+    ("testSen", testSen),
+    ("testMan", testMan),
+    ("testOku", testOku),
+    ("testChō", testChō),
+    ("testKei", testKei),
+  ]
+  
   override func setUp() {
     // Put setup code here. This method is called before the invocation of each test method in the class.
   }
