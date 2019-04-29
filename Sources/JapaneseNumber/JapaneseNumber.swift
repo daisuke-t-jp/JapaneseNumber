@@ -118,7 +118,7 @@ public extension Int {
       var digit2 = digit
       while true {
         guard let prefix = prefixes[digit2 - 1] else {
-          digit2 = digit2 - 1
+          digit2 -= 1
           continue
         }
         
@@ -128,8 +128,7 @@ public extension Int {
         } else {
           if digitNum > 9 {
             result += digitNum.japaneseNumber + prefix
-          }
-          else {
+          } else {
             result += JapaneseNumber.allCases[digitNum].rawValue + prefix
           }
         }
