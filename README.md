@@ -22,7 +22,6 @@ The Swift Extension of Japanese Number.
 
 
 ## Example
-### Code
 ```swift
 import JapaneseNumber
 
@@ -34,9 +33,6 @@ print(7.japaneseNumber)
 
 print(12.japaneseNumber)
 // -> "十二"
-
-print(502.japaneseNumber)
-// -> "五百二"
 
 print(502.japaneseNumber)
 // -> "五百二"
