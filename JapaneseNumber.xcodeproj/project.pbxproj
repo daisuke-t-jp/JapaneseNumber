@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		7E56199D2276073200010B13 /* JapaneseNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5619942276073100010B13 /* JapaneseNumber.framework */; };
 		7E5619AB227608A500010B13 /* JapaneseNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD64C52275B2CF002D8D0D /* JapaneseNumberTests.swift */; };
-		7E5619AC227608A800010B13 /* JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD64BE2275B28F002D8D0D /* JapaneseNumber.swift */; };
+		7E5619AC227608A800010B13 /* Int+JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD64BE2275B28F002D8D0D /* Int+JapaneseNumber.swift */; };
 		7E5619AD227608AD00010B13 /* JapaneseNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAD64BD2275B28F002D8D0D /* JapaneseNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E69704022744B770029487B /* JapaneseNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E69703622744B770029487B /* JapaneseNumber.framework */; };
 		7EAD64C02275B28F002D8D0D /* JapaneseNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAD64BD2275B28F002D8D0D /* JapaneseNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EAD64C12275B28F002D8D0D /* JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD64BE2275B28F002D8D0D /* JapaneseNumber.swift */; };
+		7EAD64C12275B28F002D8D0D /* Int+JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD64BE2275B28F002D8D0D /* Int+JapaneseNumber.swift */; };
 		7EAD64C82275B2CF002D8D0D /* JapaneseNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD64C52275B2CF002D8D0D /* JapaneseNumberTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,7 @@
 		7E69703622744B770029487B /* JapaneseNumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JapaneseNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E69703F22744B770029487B /* JapaneseNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapaneseNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAD64BD2275B28F002D8D0D /* JapaneseNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapaneseNumber.h; sourceTree = "<group>"; };
-		7EAD64BE2275B28F002D8D0D /* JapaneseNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseNumber.swift; sourceTree = "<group>"; };
+		7EAD64BE2275B28F002D8D0D /* Int+JapaneseNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+JapaneseNumber.swift"; sourceTree = "<group>"; };
 		7EAD64BF2275B28F002D8D0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EAD64C42275B2CF002D8D0D /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		7EAD64C52275B2CF002D8D0D /* JapaneseNumberTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseNumberTests.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 			children = (
 				7EAD64BD2275B28F002D8D0D /* JapaneseNumber.h */,
 				7EAD64BF2275B28F002D8D0D /* Info.plist */,
-				7EAD64BE2275B28F002D8D0D /* JapaneseNumber.swift */,
+				7EAD64BE2275B28F002D8D0D /* Int+JapaneseNumber.swift */,
 			);
 			name = JapaneseNumber;
 			path = Sources/JapaneseNumber;
@@ -337,7 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5619AC227608A800010B13 /* JapaneseNumber.swift in Sources */,
+				7E5619AC227608A800010B13 /* Int+JapaneseNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EAD64C12275B28F002D8D0D /* JapaneseNumber.swift in Sources */,
+				7EAD64C12275B28F002D8D0D /* Int+JapaneseNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
