@@ -9,7 +9,9 @@
 
 ## Introduction
 
-🇯🇵 The Swift Extension of Japanese Number.
+🇯🇵 The Swift Extension of Japanese Number.  
+
+You can get Japanese style number-strings from **Int** and **UInt** extentions.
 
 
 ## Requirements
