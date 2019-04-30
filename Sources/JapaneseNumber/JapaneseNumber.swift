@@ -31,7 +31,29 @@ extension JapaneseNumber where Self: BinaryInteger {
     return digit
   }
   
+}
+
+
+extension JapaneseNumber where Self: SignedInteger {
+  
   var japaneseNumber: String {
+    
+    var val = self
+    if val < 0 {
+      val *= -1
+    }
+    
+    return UInt(val).japaneseNumber
+    
+  }
+  
+}
+
+
+extension JapaneseNumber where Self: UnsignedInteger {
+
+  var japaneseNumber: String {
+    
     var val = self
     var result = ""
     let prefixes = Constant.metricPrefixes()
