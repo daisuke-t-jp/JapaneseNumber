@@ -1906,7 +1906,18 @@ class JapaneseNumberTests: XCTestCase {
     XCTAssertEqual(UInt(18323318921270836534).japaneseNumber, "千八百三十二京三千三百十八兆九千二百十二億七千八十三万六千五百三十四")
     XCTAssertEqual(UInt(18328978646179367037).japaneseNumber, "千八百三十二京八千九百七十八兆六千四百六十一億七千九百三十六万七千三十七")
   }
-
+  
+  func testMinus() {
+    XCTAssertEqual(Int(-1).japaneseNumber, "一")
+    XCTAssertEqual(Int(-54).japaneseNumber, "五十四")
+    XCTAssertEqual(Int(-974).japaneseNumber, "九百七十四")
+    XCTAssertEqual(Int(-1048).japaneseNumber, "千四十八")
+    XCTAssertEqual(Int(-1417604).japaneseNumber, "百四十一万七千六百四")
+    XCTAssertEqual(Int(-679309907494).japaneseNumber, "六千七百九十三億九百九十万七千四百九十四")
+    XCTAssertEqual(Int(-7621337554319143).japaneseNumber, "七千六百二十一兆三千三百七十五億五千四百三十一万九千百四十三")
+    XCTAssertEqual(Int(-4787380771630636909).japaneseNumber, "四百七十八京七千三百八十兆七千七百十六億三千六十三万六千九百九")
+  }
+  
   func testMax() {
     if MemoryLayout<Int>.size == 4 {
       // 32 bit
