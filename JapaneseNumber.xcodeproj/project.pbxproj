@@ -20,6 +20,7 @@
 		7EFE1FAC2277F2B1008E9446 /* JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE1FA82277EB57008E9446 /* JapaneseNumber.swift */; };
 		7EFE1FAE2277F3B7008E9446 /* UInt+JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE1FAD2277F3B7008E9446 /* UInt+JapaneseNumber.swift */; };
 		7EFE1FAF2277F3B7008E9446 /* UInt+JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE1FAD2277F3B7008E9446 /* UInt+JapaneseNumber.swift */; };
+		7EFE1FB0227864E1008E9446 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE1FAA2277F2AC008E9446 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -351,6 +352,7 @@
 				7E5619AC227608A800010B13 /* Int+JapaneseNumber.swift in Sources */,
 				7EFE1FAF2277F3B7008E9446 /* UInt+JapaneseNumber.swift in Sources */,
 				7EFE1FAC2277F2B1008E9446 /* JapaneseNumber.swift in Sources */,
+				7EFE1FB0227864E1008E9446 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
