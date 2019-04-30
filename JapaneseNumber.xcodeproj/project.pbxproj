@@ -15,6 +15,11 @@
 		7EAD64C02275B28F002D8D0D /* JapaneseNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAD64BD2275B28F002D8D0D /* JapaneseNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EAD64C12275B28F002D8D0D /* Int+JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD64BE2275B28F002D8D0D /* Int+JapaneseNumber.swift */; };
 		7EAD64C82275B2CF002D8D0D /* JapaneseNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD64C52275B2CF002D8D0D /* JapaneseNumberTests.swift */; };
+		7EFE1FA92277EB57008E9446 /* JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE1FA82277EB57008E9446 /* JapaneseNumber.swift */; };
+		7EFE1FAB2277F2AC008E9446 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE1FAA2277F2AC008E9446 /* Constant.swift */; };
+		7EFE1FAC2277F2B1008E9446 /* JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE1FA82277EB57008E9446 /* JapaneseNumber.swift */; };
+		7EFE1FAE2277F3B7008E9446 /* UInt+JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE1FAD2277F3B7008E9446 /* UInt+JapaneseNumber.swift */; };
+		7EFE1FAF2277F3B7008E9446 /* UInt+JapaneseNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE1FAD2277F3B7008E9446 /* UInt+JapaneseNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,9 @@
 		7EAD64C42275B2CF002D8D0D /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		7EAD64C52275B2CF002D8D0D /* JapaneseNumberTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseNumberTests.swift; sourceTree = "<group>"; };
 		7EAD64C62275B2CF002D8D0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFE1FA82277EB57008E9446 /* JapaneseNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapaneseNumber.swift; sourceTree = "<group>"; };
+		7EFE1FAA2277F2AC008E9446 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7EFE1FAD2277F3B7008E9446 /* UInt+JapaneseNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UInt+JapaneseNumber.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +114,10 @@
 			children = (
 				7EAD64BD2275B28F002D8D0D /* JapaneseNumber.h */,
 				7EAD64BF2275B28F002D8D0D /* Info.plist */,
+				7EFE1FAA2277F2AC008E9446 /* Constant.swift */,
+				7EFE1FA82277EB57008E9446 /* JapaneseNumber.swift */,
 				7EAD64BE2275B28F002D8D0D /* Int+JapaneseNumber.swift */,
+				7EFE1FAD2277F3B7008E9446 /* UInt+JapaneseNumber.swift */,
 			);
 			name = JapaneseNumber;
 			path = Sources/JapaneseNumber;
@@ -338,6 +349,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E5619AC227608A800010B13 /* Int+JapaneseNumber.swift in Sources */,
+				7EFE1FAF2277F3B7008E9446 /* UInt+JapaneseNumber.swift in Sources */,
+				7EFE1FAC2277F2B1008E9446 /* JapaneseNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +367,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EAD64C12275B28F002D8D0D /* Int+JapaneseNumber.swift in Sources */,
+				7EFE1FA92277EB57008E9446 /* JapaneseNumber.swift in Sources */,
+				7EFE1FAB2277F2AC008E9446 /* Constant.swift in Sources */,
+				7EFE1FAE2277F3B7008E9446 /* UInt+JapaneseNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
