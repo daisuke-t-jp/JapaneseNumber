@@ -1,5 +1,5 @@
 PODS:
-  - JapaneseNumber (1.0.0)
+  - JapaneseNumber (1.0.1)
 
 DEPENDENCIES:
   - JapaneseNumber (from `../../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  JapaneseNumber: f04faa08707a6f96b6cc190ee90c95f30066c33c
+  JapaneseNumber: b27c9902241c64d485cecad51561e0564d6dc0a2
 
 PODFILE CHECKSUM: 57a1e1a051a1e83cf46da56b38d02ada30ce30b0
 

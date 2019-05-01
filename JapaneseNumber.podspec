@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.name         = "JapaneseNumber"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "🇯🇵 The Swift Extension of Japanese Number."
 
   spec.description  = <<-DESC
