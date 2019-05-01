@@ -8,11 +8,11 @@
 
 import Foundation
 
-
 /// Japanese Number Protocol
-protocol JapaneseNumber {
-  var digit: Int { get }
+public protocol JapaneseNumber {
+  
   var japaneseNumber: String { get }
+  
 }
 
 
@@ -34,7 +34,7 @@ extension JapaneseNumber where Self: BinaryInteger {
 }
 
 
-extension JapaneseNumber where Self: SignedInteger {
+public extension JapaneseNumber where Self: SignedInteger {
   
   var japaneseNumber: String {
     
@@ -50,7 +50,7 @@ extension JapaneseNumber where Self: SignedInteger {
 }
 
 
-extension JapaneseNumber where Self: UnsignedInteger {
+public extension JapaneseNumber where Self: UnsignedInteger {
 
   var japaneseNumber: String {
     
