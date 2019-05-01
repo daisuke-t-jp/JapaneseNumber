@@ -1,0 +1,16 @@
+PODS:
+  - JapaneseNumber (1.0.0)
+
+DEPENDENCIES:
+  - JapaneseNumber (from `../../`)
+
+EXTERNAL SOURCES:
+  JapaneseNumber:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  JapaneseNumber: f04faa08707a6f96b6cc190ee90c95f30066c33c
+
+PODFILE CHECKSUM: 57a1e1a051a1e83cf46da56b38d02ada30ce30b0
+
+COCOAPODS: 1.6.1
