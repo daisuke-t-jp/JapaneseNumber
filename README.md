@@ -37,32 +37,56 @@ end
 ```swift
 import JapaneseNumber
 
-print(0.japaneseNumber)
-// -> "〇"
+print("0.japaneseNumber -> \"\(0.japaneseNumber)\"")
+// 0.japaneseNumber -> "〇"
 
-print(7.japaneseNumber)
-// -> "七"
+print("1.japaneseNumber -> \"\(1.japaneseNumber)\"")
+// 1.japaneseNumber -> "一"
 
-print(12.japaneseNumber)
-// -> "十二"
+print("2.japaneseNumber -> \"\(2.japaneseNumber)\"")
+// 2.japaneseNumber -> "二"
 
-print(502.japaneseNumber)
-// -> "五百二"
+print("3.japaneseNumber -> \"\(3.japaneseNumber)\"")
+// 3.japaneseNumber -> "三"
 
-print(8780.japaneseNumber)
-// -> "八千七百八十"
+print("4.japaneseNumber -> \"\(4.japaneseNumber)\"")
+// 4.japaneseNumber -> "四"
 
-print(2348125.japaneseNumber)
-// -> "二百三十四万八千百二十五"
+print("5.japaneseNumber -> \"\(5.japaneseNumber)\"")
+// 5.japaneseNumber -> "五"
 
-print(804886074634.japaneseNumber)
-// -> "八千四十八億八千六百七万四千六百三十四"
+print("6.japaneseNumber -> \"\(6.japaneseNumber)\"")
+// 6.japaneseNumber -> "六"
 
-print(3320983561368252.japaneseNumber)
-// -> "三千三百二十兆九千八百三十五億六千百三十六万八千二百五十二"
+print("7.japaneseNumber -> \"\(7.japaneseNumber)\"")
+// 7.japaneseNumber -> "七"
 
-print(993377984582390530.japaneseNumber)
-// -> "九十九京三千三百七十七兆九千八百四十五億八千二百三十九万五百三十"
+print("8.japaneseNumber -> \"\(8.japaneseNumber)\"")
+// 8.japaneseNumber -> "八"
+
+print("9.japaneseNumber -> \"\(9.japaneseNumber)\"")
+// 9.japaneseNumber -> "九"
+
+print("10.japaneseNumber -> \"\(10.japaneseNumber)\"")
+// 10.japaneseNumber -> "十"
+
+print("-1.japaneseNumber -> \"\(Int(-1).japaneseNumber)\"")
+// -1.japaneseNumber -> "一"
+
+print("5035.japaneseNumber -> \"\(5035.japaneseNumber)\"")
+// 5035.japaneseNumber -> "五千三十五"
+
+print("21038250.japaneseNumber -> \"\(21038250.japaneseNumber)\"")
+// 21038250.japaneseNumber -> "二千百三万八千二百五十"
+
+print("325568057586.japaneseNumber -> \"\(325568057586.japaneseNumber)\"")
+// 325568057586.japaneseNumber -> "三千二百五十五億六千八百五万七千五百八十六"
+
+print("665061443960367.japaneseNumber -> \"\(665061443960367.japaneseNumber)\"")
+// 665061443960367.japaneseNumber -> "六百六十五兆六百十四億四千三百九十六万三百六十七"
+
+print("10937969797677893734.japaneseNumber -> \"\(UInt(10937969797677893734).japaneseNumber)\"")
+// 10937969797677893734.japaneseNumber -> "千九十三京七千九百六十九兆七千九百七十六億七千七百八十九万三千七百三十四"
 
 ```
 
