@@ -18,11 +18,19 @@ You can get Japanese style number-strings from **Int** and **UInt** extentions.
 - Platforms
   - iOS 10.0+
   - macOS 10.12+
+  - Linux
 - Swift 5.0
 
 
 ## Installation
-- TODO
+### CocoaPods
+```
+use_frameworks!
+
+target 'target' do
+pod 'JapaneseNumber'
+end
+```
 
 
 ## Example
@@ -58,5 +66,10 @@ print(993377984582390530.japaneseNumber)
 
 ```
 
+
 ## Demo
-- TODO
+There are demos.
+
+- [iOS](https://github.com/daisuke-t-jp/JapaneseNumber/tree/master/demo/JapaneseNumberDemo-iOS) 
+- [macOS](https://github.com/daisuke-t-jp/JapaneseNumber/tree/master/demo/JapaneseNumberDemo-macOS) 
+
