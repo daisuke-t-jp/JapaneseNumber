@@ -11,7 +11,7 @@
 
 ## Introduction
 
-🇯🇵 The Swift Extension of Japanese Number.  
+🇯🇵 The Swift Extension of Japanese Number.  *(e.g. 123,456,789 -> "一億二千三百四十五万六千七百八十九")*
 
 You can get Japanese style number-strings from [Int](https://developer.apple.com/documentation/swift/int) and [UInt](https://developer.apple.com/documentation/swift/UInt) extentions.
 
