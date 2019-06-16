@@ -11,7 +11,7 @@
 
 🇯🇵 The Swift Extension of Japanese Number.  
 
-You can get Japanese style number-strings from **Int** and **UInt** extentions.
+You can get Japanese style number-strings from [Int](https://developer.apple.com/documentation/swift/int) and [UInt](https://developer.apple.com/documentation/swift/UInt) extentions.
 
 
 ## Requirements
