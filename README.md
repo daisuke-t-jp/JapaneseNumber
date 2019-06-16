@@ -1,10 +1,12 @@
 <img src="https://raw.githubusercontent.com/daisuke-t-jp/JapaneseNumber/master/images/JapaneseNumber.png" width="600"></br>
 
 # JapaneseNumber
-![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20macOS%20-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20macOS%20%7C%20Linux-blue.svg)
 [![Language Swift%205.0](https://img.shields.io/badge/Language-Swift%205.0-orange.svg)](https://developer.apple.com/swift)
 [![Build Status](https://travis-ci.org/daisuke-t-jp/JapaneseNumber.svg?branch=master)](https://travis-ci.org/daisuke-t-jp/JapaneseNumber)
-[![Cocoapods](https://img.shields.io/cocoapods/v/JapaneseNumber.svg)](https://cocoapods.org/pods/JapaneseNumber)
+[![CocoaPods](https://img.shields.io/cocoapods/v/JapaneseNumber.svg)](https://cocoapods.org/pods/JapaneseNumber)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-green.svg)](https://github.com/Carthage/Carthage)
+[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-green.svg)](https://github.com/apple/swift-package-manager)
 
 
 ## Introduction
@@ -30,6 +32,26 @@ use_frameworks!
 target 'target' do
 pod 'JapaneseNumber'
 end
+```
+
+## Carthage
+`github "daisuke-t-jp/JapaneseNumber"`
+
+## Swift Package Manager
+```swift
+import PackageDescription
+
+let package = Package(
+  name: "YOUR_PACKAGE_NAME",
+  dependencies: [
+    .package(url: "https://github.com/daisuke-t-jp/JapaneseNumber.git", from: "1.0.0")
+  ],
+  targets: [
+    .target(
+      name: "YOUR_TARGET_NAME",
+      dependencies: ["JapaneseNumber"]),
+  ]
+)
 ```
 
 
